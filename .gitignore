@@ -1,0 +1,69 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+!.env.*.example
+!.env.template
+!.env.*.template
+*.env
+*.env.*
+!.env.example
+!.env.*.example
+!.env.template
+!.env.*.template
+
+# Common secret / credential files
+secrets/
+**/secrets/
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+*.jks
+*.keystore
+credentials.json
+service-account*.json
+*-credentials.json
+
+# Build outputs
+dist/
+**/dist/
+build/
+**/build/
+coverage/
+.next/
+out/
+*.tsbuildinfo
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editors and local tooling
+.vscode/
+.idea/
+*.swp
+*.swo
+*.local
+
+# Local databases and uploads
+*.sqlite
+*.sqlite3
+*.db
+uploads/
+tmp/
+temp/
